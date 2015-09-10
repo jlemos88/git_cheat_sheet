@@ -1,4 +1,5 @@
 --git cheat sheet--
+
 >Setup Git
 $ git config --global user.name "<name>"
 $ git config --global user.email <email>
@@ -8,13 +9,27 @@ $ git init
 
 >Projecy status
 $ git status
-$ git status -s    //for short
+$ git status -s    // for short
 
 >Add a file to the stage
-$ git add <filename>   //to add a specific file
-$ git add *            //to add all files
-$ git add *.extension  //to add all files of given extension
+$ git add <filename>   // to add a specific file
+$ git add *            // to add all files
+$ git add *.extension  // to add all files of given extension
 
 >Commit file
 $ git commit -m '<message>'
 
+>Check repo history
+
+$ git log 
+
+	option
+	--graph	// branch graph
+	--oneline
+	-p	// changes
+	-1	// number of commits
+	--decorate
+
+>Create alias
+
+$ git config --global alias.lg 'log --graph --oneline --decorate --all'
