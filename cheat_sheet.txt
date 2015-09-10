@@ -33,3 +33,44 @@ $ git log
 >Create alias
 
 $ git config --global alias.lg 'log --graph --oneline --decorate --all'
+
+>Differences 
+
+$ git diff 
+
+	options
+	--stagged		// chanfes between stage and last commit
+
+>Reset the stage
+
+$git reset HEAD
+	options
+	<filename>	// unstage file
+
+>Remove commit
+
+$ git reset <commit>
+
+	options
+	--hard	remove changes
+
+>Amend last commit
+
+$ git commit --amend
+
+
+>Creat Branch
+
+$ git branch <branchname>
+
+
+>Change  Branch
+
+$ git checkout <branchname>
+
+
+>Check current branch
+
+$ git branch
+
+ISTO NAO APARECE NO MASTER
