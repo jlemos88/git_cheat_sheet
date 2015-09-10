@@ -1,0 +1,9 @@
+--git cheat sheet--
+>Setup Git
+$ git config --global user.name "<name>"
+$ git config --global user.email <email>
+
+>Initialize git repo
+$ git init
+
+
