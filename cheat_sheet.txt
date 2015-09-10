@@ -77,3 +77,12 @@ $ git branch
 >Merge branch
 
 $ git merge <branchnam>
+
+
+>Push to remote
+
+$ git push -u origin master
+
+>Add remote
+
+$ git remote add origin <url>
