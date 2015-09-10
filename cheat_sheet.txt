@@ -6,4 +6,15 @@ $ git config --global user.email <email>
 >Initialize git repo
 $ git init
 
+>Projecy status
+$ git status
+$ git status -s    //for short
+
+>Add a file to the stage
+$ git add <filename>   //to add a specific file
+$ git add *            //to add all files
+$ git add *.extension  //to add all files of given extension
+
+>Commit file
+$ git commit -m '<message>'
 
