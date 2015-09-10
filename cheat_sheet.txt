@@ -73,4 +73,7 @@ $ git checkout <branchname>
 
 $ git branch
 
-more random stuff!!
+
+>Merge branch
+
+$ git merge <branchnam>
